@@ -1,0 +1,83 @@
+.bn{
+position: absolute;
+width: 1348px;
+height: 768px;
+left: 0px;
+top: 0px;
+
+}
+
+.lg{
+position: absolute;
+width: 217px;
+height: 217px;
+left: 0px;
+top: -47px;
+}
+
+.txtb{
+
+position: absolute;
+width: 150px;
+height: 35px;
+
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.btlc{
+
+font-family: Arial;
+font-size: 20px;
+font-weight: 150;
+border: none;
+cursor: pointer;
+position: absolute;
+left: 1080px;
+top: 39px;
+width: 252px;
+height: 45px;
+
+background: #BC6FF1;
+color:  #FFFFFF;
+border-radius: 59px;
+}
+
+.txtbb{
+
+position: absolute;
+width: 350px;
+height: 28px;
+
+font-family: 'Work Sans', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.imgic{
+
+position: absolute;
+width: 64px;
+height: 64px;
+}
+
+.line{
+
+position: absolute;
+width: 142px;
+height: 0px;
+left: 620px;
+top: 910px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+}

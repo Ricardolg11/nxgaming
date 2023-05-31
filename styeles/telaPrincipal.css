@@ -1,4 +1,14 @@
 /*Começo css menu*/
+
+body {
+  background-image: url();
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #352F44;
+  height: 2790px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +30,11 @@ top: -31px;
   font-family: 'Work Sans', sans-serif;
   background: #2A2438;
   height: 13vh;
+}
+
+.btnLogout {
+  background-color: brown; 
+  cursor: pointer;
 }
 
 

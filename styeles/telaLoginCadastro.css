@@ -31,8 +31,6 @@ body {
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-
     left: 0;
 }
 .title {
@@ -46,7 +44,6 @@ body {
 }
 .title-second {
     color: #352F44;
-
 }
 .description {
     font-size: 14px;
@@ -228,7 +225,6 @@ input:-webkit-autofill
 
 .sign-up-js .content::before {
     animation: slideout 1.0s; /*MODIFIQUEI DE 3s PARA 1.3s*/
-
     z-index: 12;
 }
 
@@ -248,7 +244,6 @@ input:-webkit-autofill
 
 /* DESLOCAMENTO CONTEÚDO ATRÁS DO CONTENT:BEFORE*/
 .sign-in-js .first-content .second-column {
-
     z-index: -1;
     position: relative;
     animation: deslocamentoEsq 1.0s; /*MODIFIQUEI DE 3s PARA 1.3s*/
@@ -289,7 +284,6 @@ input:-webkit-autofill
     }
 }
 
-
 @keyframes deslocamentoDir {
 
     from {
@@ -313,7 +307,6 @@ input:-webkit-autofill
         z-index: -1;
     }
 }
-
 
 /*ANIMAÇÃO CSS*/
 
@@ -399,7 +392,6 @@ input:-webkit-autofill
         top: 60%;
         left: 0;
         border-radius: 0;
-
     }
 
     .form {

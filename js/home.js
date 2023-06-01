@@ -1,4 +1,4 @@
-const fab fa-facebook-f = document.getElemetByclass('fab fa-facebook-f');
+const fabFaFacebookF = document.getElementsByClassName('fab fa-facebook-f');
 const auth = firebase.auth();
 
 var provider = new firebase.auth.FacebookAuthProvider();

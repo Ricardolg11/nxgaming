@@ -1,0 +1,201 @@
+/*Começo css menu*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  left: 7px;
+  top: -31px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    background: #2A2438;
+    height: 13vh;
+  }
+  
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  
+  .dropdown .dropbtn {
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #352F44;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*Fim css menu*/
+  
+  /*Começo css pag*/
+  
+  .mine{
+  
+  position: absolute;
+  width: 268px;
+  height: 373px;
+  left: 73px;
+  top: 136px;
+  }
+  
+  .nt{
+  
+  font-family: arial;
+  font-size: 30px;
+  font-weight: 150;
+  border: none;
+  padding: 15px 18px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
+  }
+  
+  .ntu{
+  
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  padding: 7px 11px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
+  }
+  
+  .buttoncom{
+  
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  cursor: pointer;
+  padding: 5px 9px;
+  position: absolute;
+  width: 232px;
+  height: 72px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 6px;
+  }
+  
+  .txtdm{
+  
+  position: absolute;
+  width: 664px;
+  height: 245px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: justify;
+  color: #FFFFFF;
+  }
+  
+  .plataformad{
+  
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  left: 1053px;
+  top: 136px;
+  }
+  
+  .premiosg{
+  
+  position: absolute;
+  width: 240px;
+  height: 141px;
+  left: 1054px;
+  top: 334px;
+  }
+  
+  .txtb{
+  
+  position: absolute;
+  width: 904px;
+  height: 770px;
+  left: 231px;
+  top: 1420px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: justify;
+  color: #FFFFFF;
+  }
+  
+  .txttt{
+  
+  position: absolute;
+  width: 305px;
+  height: 75px;
+  font-family: Arial Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+  }
+  
+  .playv{
+  
+  position: absolute;
+  left: 320px;
+  top: 3850px;
+  border: 1px solid #BC6FF1;
+  
+  }
+  /*Fim css pag*/

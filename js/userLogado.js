@@ -16,7 +16,7 @@ btnLogout.addEventListener('click', function () {
         // Sign-out successful.
     }).catch((error) => {
         // An error happened.
-        alert(ERRO)
+        alert(error)
     });
 
 });

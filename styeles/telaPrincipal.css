@@ -29,7 +29,7 @@ top: -31px;
   align-items: center;
   font-family: 'Work Sans', sans-serif;
   background: #2A2438;
-  height: 13vh;
+  height: 80px;
 }
 
 .btnLogout {
@@ -88,6 +88,54 @@ top: -31px;
 /*Fim css menu*/
 
 /*Formatação pagina*/
+
+@media (max-width: 860px)  {
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    background: #2A2438;
+    height: 13vh;
+    width: 830px;
+
+  }
+
+  .bannertw {
+    display:flex;
+    width: 850px;
+    
+  }
+}
+  
+@media (max-width: 640px)  {
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    background: #2A2438;
+    height: 13vh;
+    width: 620px;
+    left: 50px;
+
+  }
+
+  .bannertw {
+    display: flex;
+    width: 620px;
+    
+  }
+}
+
+.bannertw{
+  display:flex;
+  width: 1350px;
+}
 .retangulo{
 
 position: absolute;

@@ -1,10 +1,10 @@
 body {
-    background-image: url();
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #352F44;
-    height: 998px;
+background-image: url();
+background-attachment: fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+background-color: #352F44;
+height: 998px;
 }
 
 .bn{
@@ -41,7 +41,7 @@ cursor: pointer;
 
 .btlc{
 
-font-family: Arial;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 font-weight: 150;
 border: none;

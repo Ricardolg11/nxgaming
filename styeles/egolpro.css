@@ -81,7 +81,7 @@ width: 993px;
 height: 119px;
 left: 187px;
 top: 112px;
-font-family: Arial Narrow;
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 45px;
@@ -109,7 +109,7 @@ width: 500px;
 height: 42px;
 left: 185px;
 top: 1040px;
-font-family: Arial Narrow;
+font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 30px;
@@ -120,7 +120,7 @@ color: #FFFFFF;
 
 .bttab{
 
-font-family: arial;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 24px;
 font-weight: 150;
 border: none;

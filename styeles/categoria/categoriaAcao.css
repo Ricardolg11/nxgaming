@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+body{
+  
+    background-image: url();
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #352f44;
+    height: 2790px;
+  
+}
+
 .logo {
 position: absolute;
 width: 141px;

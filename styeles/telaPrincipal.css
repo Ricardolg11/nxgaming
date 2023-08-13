@@ -83,9 +83,6 @@ top: -31px;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*Fim css menu*/
-
-/*Formatação pagina*/
 
 @media (max-width: 860px)  {
 

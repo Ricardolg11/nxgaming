@@ -1,5 +1,5 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyAYnFU9GQE875VaoAPfUNW8FSzNTKyW_4Y",
+const firebaseConfig = {
+    apiKey: "ADICIONAR",
     authDomain: "cadastro-53984.firebaseapp.com",
     projectId: "cadastro-53984",
     storageBucket: "cadastro-53984.appspot.com",

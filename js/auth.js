@@ -1,21 +1,21 @@
 // Pegar Informações para criar uma nova conta
-var btnCreateAccount = document.getElementById('btnCreateAccount')
-var inputCreatePass = document.getElementById('inputCreatePass')
-var inputCreateEmail = document.getElementById('inputCreateEmail')
+let btnCreateAccount = document.getElementById('btnCreateAccount')
+let inputCreatePass = document.getElementById('inputCreatePass')
+let inputCreateEmail = document.getElementById('inputCreateEmail')
 
 // Pegar informações para fazer login
-var btnLogin = document.getElementById('btnLogin')
-var inputLoginPass = document.getElementById('inputLoginPass')
-var inputLoginEmail = document.getElementById('inputLoginEmail')
+const btnLogin = document.getElementById('btnLogin')
+const inputLoginPass = document.getElementById('inputLoginPass')
+const inputLoginEmail = document.getElementById('inputLoginEmail')
 
-var btnFacebookLogin = document.getElementById('btnFacebookLogin')
-var btnGoogleLogin = document.getElementById('btnGoogleLogin')
+let btnFacebookLogin = document.getElementById('btnFacebookLogin')
+let btnGoogleLogin = document.getElementById('btnGoogleLogin')
 
-var btnFacebookCreate = document.getElementById('btnFacebookCreate')
-var btnGoogleCreate = document.getElementById('btnGoogleCreate')
+let btnFacebookCreate = document.getElementById('btnFacebookCreate')
+let btnGoogleCreate = document.getElementById('btnGoogleCreate')
 
-var providerGoogle = new firebase.auth.GoogleAuthProvider();
-var provider = new firebase.auth.FacebookAuthProvider();
+let providerGoogle = new firebase.auth.GoogleAuthProvider();
+let provider = new firebase.auth.FacebookAuthProvider();
 
 
 // Função : Criar novo usuario / email e senha
@@ -24,9 +24,9 @@ btnCreateAccount.addEventListener('click', function () {
     firebase.auth().createUserWithEmailAndPassword(inputCreateEmail.value, inputCreatePass.value)
         .then((userCredential) => {
             // Signed in
-            var user = userCredential.user;
+            let user = userCredential.user;
 
-            var userData = {
+            let userData = {
                 id: user.uid,
                 name: user.displayName,
                 avatar: user.photoURL,
@@ -34,7 +34,7 @@ btnCreateAccount.addEventListener('click', function () {
             }
 
             localStorage.setItem('userData', JSON.stringify(userData));
-            let storageUser = JSON.parse(localStorage.getItem('userData'));
+            let storageuser = JSON.parse(localStorage.getItem('userData'));
 
             alert('Usuario Criado com Sucesso')
             window.location.replace('telaPrincipal.html')
@@ -42,8 +42,8 @@ btnCreateAccount.addEventListener('click', function () {
             // ...
         })
         .catch((error) => {
-            var errorCode = error.code;
-            var errorMessage = error.message;
+            let errorCode = error.code;
+            let errorMessage = error.message;
             alert('ERRO! Verifique as informações fornecidas e tente novamente.')
 
             // ..
@@ -56,9 +56,9 @@ btnLogin.addEventListener('click', function () {
     firebase.auth().signInWithEmailAndPassword(inputLoginEmail.value, inputLoginPass.value)
         .then((userCredential) => {
             // Signed in
-            var user = userCredential.user;
+            let user = userCredential.user;
 
-            var userData = {
+            let userData = {
                 id: user.uid,
                 name: user.displayName,
                 avatar: user.photoURL,
@@ -74,8 +74,8 @@ btnLogin.addEventListener('click', function () {
             // ...
         })
         .catch((error) => {
-            var errorCode = error.code;
-            var errorMessage = error.message;
+            let errorCode = error.code;
+            let errorMessage = error.message;
             alert('ERRO! Verifique as informações fornecidas e tente novamente.')
 
 
@@ -91,12 +91,12 @@ btnFacebookCreate.addEventListener('click', function () {
         .signInWithPopup(provider)
         .then((result) => {
             /** @type {firebase.auth.OAuthCredential} */
-            var credential = result.credential;
+            let credential = result.credential;
 
             // The signed-in user info.
-            var user = result.user;
+            let user = result.user;
 
-            var userData = {
+            let userData = {
                 id: user.uid,
                 name: user.displayName,
                 avatar: user.photoURL,
@@ -107,18 +107,18 @@ btnFacebookCreate.addEventListener('click', function () {
             let storageUser = JSON.parse(localStorage.getItem('userData'));
 
             // This gives you a Facebook Access Token. You can use it to access the Facebook API.
-            var accessToken = credential.accessToken;
+            let accessToken = credential.accessToken;
 
             // ...
         })
         .catch((error) => {
             // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
+            let errorCode = error.code;
+            let errorMessage = error.message;
             // The email of the user's account used.
-            var email = error.email;
+            let email = error.email;
             // The firebase.auth.AuthCredential type that was used.
-            var credential = error.credential;
+            let credential = error.credential;
 
             // ...
         });
@@ -131,14 +131,14 @@ btnGoogleCreate.addEventListener('click', function () {
         .signInWithPopup(providerGoogle)
         .then((result) => {
             /** @type {firebase.auth.OAuthCredential} */
-            var credential = result.credential;
+            let credential = result.credential;
 
             // This gives you a Google Access Token. You can use it to access the Google API.
-            var token = credential.accessToken;
+            let token = credential.accessToken;
             // The signed-in user info.
-            var user = result.user;
+            let user = result.user;
 
-            var userData = {
+            let userData = {
                 id: user.uid,
                 name: user.displayName,
                 avatar: user.photoURL,
@@ -154,12 +154,12 @@ btnGoogleCreate.addEventListener('click', function () {
             // ...
         }).catch((error) => {
             // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
+            let errorCode = error.code;
+            let errorMessage = error.message;
             // The email of the user's account used.
-            var email = error.email;
+            let email = error.email;
             // The firebase.auth.AuthCredential type that was used.
-            var credential = error.credential;
+            let credential = error.credential;
             // ...
         });
 });
@@ -172,12 +172,12 @@ btnFacebookLogin.addEventListener('click', function () {
         .signInWithPopup(provider)
         .then((result) => {
             /** @type {firebase.auth.OAuthCredential} */
-            var credential = result.credential;
+            let credential = result.credential;
 
             // The signed-in user info.
-            var user = result.user;
+            let user = result.user;
 
-            var userData = {
+            let userData = {
                 id: user.uid,
                 name: user.displayName,
                 avatar: user.photoURL,
@@ -194,12 +194,12 @@ btnFacebookLogin.addEventListener('click', function () {
         })
         .catch((error) => {
             // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
+            let errorCode = error.code;
+            let errorMessage = error.message;
             // The email of the user's account used.
-            var email = error.email;
+            let email = error.email;
             // The firebase.auth.AuthCredential type that was used.
-            var credential = error.credential;
+            let credential = error.credential;
 
             // ...
         });
@@ -212,14 +212,14 @@ btnGoogleLogin.addEventListener('click', function () {
         .signInWithPopup(providerGoogle)
         .then((result) => {
             /** @type {firebase.auth.OAuthCredential} */
-            var credential = result.credential;
+            let credential = result.credential;
 
             // This gives you a Google Access Token. You can use it to access the Google API.
-            var token = credential.accessToken;
+            let token = credential.accessToken;
             // The signed-in user info.
-            var user = result.user;
+            let user = result.user;
 
-            var userData = {
+            let userData = {
                 id: user.uid,
                 name: user.displayName,
                 avatar: user.photoURL,
@@ -235,12 +235,12 @@ btnGoogleLogin.addEventListener('click', function () {
             // ...
         }).catch((error) => {
             // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
+            let errorCode = error.code;
+            let errorMessage = error.message;
             // The email of the user's account used.
-            var email = error.email;
+            let email = error.email;
             // The firebase.auth.AuthCredential type that was used.
-            var credential = error.credential;
+            let credential = error.credential;
             // ...
         });
 });

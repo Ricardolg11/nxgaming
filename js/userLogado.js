@@ -1,8 +1,8 @@
 let storageUser = JSON.parse(localStorage.getItem('userData'));
-var emailLogado = document.getElementById('emailLogado')
+let emailLogado = document.getElementById('emailLogado')
 emailLogado.innerText = storageUser.email;
 
-var btnLogout = document.getElementById('btnLogout')
+let btnLogout = document.getElementById('btnLogout')
 
 
 // logout

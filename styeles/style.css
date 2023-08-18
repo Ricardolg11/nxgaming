@@ -92,3 +92,11 @@ top: 910px;
 border: 1px solid #FFFFFF;
 transform: rotate(90deg);
 }
+
+@media screen and (max-width: 1090px) {
+    
+    .btlc{
+        transition: 1s;
+        left: 600px;   
+    }
+}

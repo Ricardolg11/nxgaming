@@ -75,7 +75,6 @@
   /*Começo css pag*/
   
   .mine{
-  
   position: absolute;
   width: 268px;
   height: 373px;
@@ -84,7 +83,6 @@
   }
   
   .nt{
-  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 150;
@@ -99,7 +97,6 @@
   }
   
   .ntu{
-  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 150;
@@ -114,7 +111,6 @@
   }
   
   .buttoncom{
-  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 150;
@@ -130,7 +126,6 @@
   }
   
   .txtdm{
-  
   position: absolute;
   width: 664px;
   height: 245px;
@@ -144,7 +139,6 @@
   }
   
   .plataformad{
-  
   position: absolute;
   width: 240px;
   height: 160px;
@@ -153,7 +147,6 @@
   }
   
   .premiosg{
-  
   position: absolute;
   width: 240px;
   height: 141px;
@@ -162,7 +155,6 @@
   }
   
   .txtb{
-  
   position: absolute;
   width: 904px;
   height: 770px;
@@ -178,7 +170,6 @@
   }
   
   .txttt{
-  
   position: absolute;
   width: 305px;
   height: 75px;
@@ -191,7 +182,6 @@
   }
   
   .playv{
-  
   position: absolute;
   left: 320px;
   top: 3850px;

@@ -36,11 +36,9 @@ top: -47px;
 }
 
 .txtb{
-
 position: absolute;
 width: 150px;
 height: 35px;
-
 font-family: 'Work Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -51,7 +49,6 @@ cursor: pointer;
 }
 
 .btlc{
-
 font-family: Arial, Helvetica, sans-serif;
 font-size: 20px;
 font-weight: 150;
@@ -67,13 +64,10 @@ background: #BC6FF1;
 color:  #FFFFFF;
 border-radius: 59px;
 }
-
 .txtbb{
-
 position: absolute;
 width: 350px;
 height: 28px;
-
 font-family: 'Work Sans', sans-serif;
 font-style: normal;
 font-weight: 900;
@@ -84,20 +78,17 @@ color: #FFFFFF;
 }
 
 .imgic{
-
 position: absolute;
 width: 64px;
 height: 64px;
 }
 
 .line{
-
 position: absolute;
 width: 142px;
 height: 0px;
 left: 620px;
 top: 910px;
-
 border: 1px solid #FFFFFF;
 transform: rotate(90deg);
 }

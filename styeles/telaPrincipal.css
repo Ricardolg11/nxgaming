@@ -131,8 +131,8 @@ top: -31px;
   display:flex;
   width: 1351px;
 }
-.retangulo{
 
+.retangulo{
 position: absolute;
 width: 1148px;
 height: 2044px;
@@ -142,14 +142,12 @@ background: #2A2438;
 }
 
 .imgc{
-
 position: absolute;
 width: 221px;
 height: 271px;
 }
 
 .nt{
-
 font-family: Arial, Helvetica, sans-serif;
 font-size: 30px;
 font-weight: 150;
@@ -163,7 +161,6 @@ border-radius: 10px;
 }
 
 .ntu{
-
 font-family: Arial, Helvetica, sans-serif;
 font-size: 24px;
 font-weight: 150;
@@ -178,7 +175,6 @@ border-radius: 10px;
 }
 
 .txtt{
-
 position: absolute;
 font-family: Arial, Helvetica, sans-serif;
 font-style: normal;
@@ -189,7 +185,6 @@ color: #BC6FF1;
 }
 
 .txtd{
-
 position: absolute;
 font-family: 'Work Sans', sans-serif;
 font-style: normal;
@@ -204,7 +199,6 @@ color: #FFFFFF;
 }
 
 .linhas{
-
 position: absolute;
 width: 1144px;
 height: 0px;
@@ -212,7 +206,6 @@ border: 2px solid #BC6FF1;
 }
 
 .stv{
-
 border: none;
 width: 32px;
 height: 38px;
@@ -223,7 +216,6 @@ border-radius: 5px;
 }
 
 .istv{
-
 position: absolute;
 width: 24px;
 height: 24px;
@@ -231,7 +223,6 @@ cursor: pointer;
 }
 
 .bt{
-
 font-family: Arial, Helvetica, sans-serif;
 font-size: 24px;
 font-weight: 150;
@@ -247,7 +238,6 @@ border-radius: 5px;
 }
 
 .p3{
-
 position: absolute;
 width: 19px;
 height: 28px;
@@ -260,7 +250,6 @@ color: #FFFFFF;
 }
 
 .bt100{
-
 font-family: Arial, Helvetica, sans-serif;
 font-size: 24px;
 font-weight: 150;

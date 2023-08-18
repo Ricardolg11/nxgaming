@@ -100,3 +100,11 @@ transform: rotate(90deg);
         left: 600px;   
     }
 }
+
+@media screen and (max-width: 610px) {
+    
+    .btlc{
+        transition: 1s;
+        left: 220px;   
+    }
+}

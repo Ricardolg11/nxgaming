@@ -1,10 +1,10 @@
 body {
-background-image: url();
-background-attachment: fixed;
-background-size: 100%;
-background-repeat: no-repeat;
-background-color: #352F44;
-height: 998px;
+    background-image: url();
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #352F44;
+    height: 998px;
 }
 .conteiner {
     top: 0px;
@@ -19,68 +19,93 @@ height: 998px;
 }
 
 .bn{
-position: absolute;
-width: 1348px;
-height: 768px;
-left: 0px;
-top: 0px;
-
+    position: absolute;
+    width: 1348px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
 }
 
 .lg{
-position: absolute;
-width: 217px;
-height: 217px;
-left: 0px;
-top: -47px;
+    position: absolute;
+    width: 217px;
+    height: 217px;
+    left: 0px;
+    top: -47px;
 }
 
 .txtb{
-position: absolute;
-width: 150px;
-height: 35px;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 35px;
-color: #FFFFFF;
-cursor: pointer;
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
+
+
 
 .btlc{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-font-weight: 150;
-border: none;
-cursor: pointer;
-position: absolute;
-left: 1080px;
-top: 39px;
-width: 252px;
-height: 45px;
-
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 59px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 150;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 1080px;
+    top: 39px;
+    width: 252px;
+    height: 45px;
+    background: #BC6FF1;
+    color:  #FFFFFF;
+    border-radius: 59px;
+    transition: 1s;
 }
 .txtbb{
-position: absolute;
-width: 350px;
-height: 28px;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 28px;
-
-color: #FFFFFF;
+    position: absolute;
+    width: 350px;
+    height: 28px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    top: 840px; 
+    left: 207px;
+    color: #FFFFFF;
+    transition: 2s;
+}
+.txtbb2{
+    position: absolute;
+    width: 350px;
+    height: 28px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    top: 840px; 
+    left: 942px;
+    color: #FFFFFF;
+    transition: 2s;
 }
 
 .imgic{
-position: absolute;
-width: 64px;
-height: 64px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic1{
+    top: 894px; 
+    left: 82px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
 }
 
 .line{
@@ -93,7 +118,8 @@ border: 1px solid #FFFFFF;
 transform: rotate(90deg);
 }
 
-@media screen and (max-width: 1090px) {
+
+@media screen and (max-width: 1190px) {
     
     .btlc{
         transition: 1s;
@@ -101,10 +127,31 @@ transform: rotate(90deg);
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 810px) {
     
     .btlc{
         transition: 1s;
         left: 220px;   
     }
 }
+
+
+@media screen and (max-width: 610px) {
+    
+    .txtbb{
+        transition: 2s;
+        top: 400px; 
+        left: 40px;
+        font-size: 15px;
+    }
+    .txtbb2{
+        transition: 2s;
+        top: 400px; 
+        left: 320px;
+        font-size: 15px;
+    }
+
+
+}
+
+

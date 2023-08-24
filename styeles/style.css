@@ -65,6 +65,7 @@ body {
     border-radius: 59px;
     transition: 1s;
 }
+
 .txtbb{
     position: absolute;
     width: 350px;
@@ -79,6 +80,7 @@ body {
     color: #FFFFFF;
     transition: 2s;
 }
+
 .txtbb2{
     position: absolute;
     width: 350px;
@@ -110,7 +112,63 @@ body {
 }
 .imgic2{
     top: 894px; 
-    left: 82px;
+    left: 195px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic3{
+    top: 894px; 
+    left: 308px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic4{
+    top: 894px; 
+    left: 421px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic5{
+    top: 894px; 
+    left: 534px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic6{
+    top: 894px; 
+    left: 817px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic7{
+    top: 894px; 
+    left: 930px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic8{
+    top: 894px; 
+    left: 1043px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.imgic9{
+    top: 894px; 
+    left: 1156px;
     position: absolute;
     width: 64px;
     height: 64px;
@@ -124,6 +182,7 @@ left: 620px;
 top: 910px;
 border: 1px solid #FFFFFF;
 transform: rotate(90deg);
+transition: 2s;
 }
 
 
@@ -163,32 +222,146 @@ transform: rotate(90deg);
 }
 
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 980px) {
     
     .txtbb{
         transition: 1s;
-        top: 400px; 
-        left: 40px;
+        top: 600px; 
+        left: 100px;
         font-size: 15px;
     }
     .txtbb2{
         transition: 1s;
-        top: 400px; 
-        left: 320px;
+        top: 500px; 
+        left: 630px;
         font-size: 15px;
     }
 
 }
 
-
 @media screen and (max-width: 1190px) {
     
     .imgic{
-        top: 150px;
+        top: 910px;
         transition: 1s;
         margin-top: -70px;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
+        margin-left: -70px;
+    }
+
+    .line{
+        top: 900px;
+        transition: 2s;
+        left: 500px;
+    }
+
+    .imgic6{
+        left: 700px; 
+    }
+    
+    .imgic7{  
+        left: 800px; 
+    }
+    
+    .imgic8{ 
+        left: 900px;
+    }
+    
+    .imgic9{ 
+        left: 1000px; 
+    }
+
+}
+
+
+@media screen and (max-width: 980px) {
+    
+    .imgic{
+        top: 800px;
+    }
+
+    .line{
+        top: 750px;
+        transition: 2s;
+        left: 430px;
+    }
+
+    .imgic1{
+        left: 100px; 
+    }
+    
+    .imgic2{  
+        left: 200px; 
+    }
+    
+    .imgic3{ 
+        left: 300px;
+    }
+    
+    .imgic4{ 
+        left: 400px; 
+    }
+
+    .imgic5{
+        left: 500px; 
+    }
+
+    .imgic6{
+        left: 600px; 
+    }
+    
+    .imgic7{  
+        left: 700px; 
+    }
+    
+    .imgic8{ 
+        left: 800px;
+    }
+    
+    .imgic9{ 
+        left: 900px; 
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    
+    .imgic{
+        top: 800px;
+    }
+
+    .line{
+        top: 750px;
+        transition: 2s;
+        left: 430px;
+    }
+
+    .txtbb2{
+        transition: 1s;
+        top: 800px; 
+        left: 150px;
+        font-size: 15px;
+    }
+
+    .imgic6{
+        top: 1000px;
+        left: 100px;  
+    }
+    
+    .imgic7{  
+        top: 1000px;
+        left: 200px; 
+    }
+    
+    .imgic8{ 
+        top: 1000px;
+        left: 300px;
+    }
+    
+    .imgic9{ 
+        top: 1000px;
+        left: 400px; 
     }
 
 }

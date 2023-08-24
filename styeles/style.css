@@ -98,9 +98,17 @@ body {
     position: absolute;
     width: 64px;
     height: 64px;
+    transition: 1s;
 }
 
 .imgic1{
+    top: 894px; 
+    left: 82px;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+.imgic2{
     top: 894px; 
     left: 82px;
     position: absolute;
@@ -136,18 +144,18 @@ transform: rotate(90deg);
 }
 
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 1190px) {
     
     .txtbb{
         transition: 2s;
-        top: 400px; 
-        left: 40px;
+        top: 750px; 
+        left: 200px;
         font-size: 15px;
     }
     .txtbb2{
         transition: 2s;
-        top: 400px; 
-        left: 320px;
+        top: 750px; 
+        left: 720px;
         font-size: 15px;
     }
 
@@ -155,3 +163,32 @@ transform: rotate(90deg);
 }
 
 
+@media screen and (max-width: 810px) {
+    
+    .txtbb{
+        transition: 1s;
+        top: 400px; 
+        left: 40px;
+        font-size: 15px;
+    }
+    .txtbb2{
+        transition: 1s;
+        top: 400px; 
+        left: 320px;
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 1190px) {
+    
+    .imgic{
+        top: 150px;
+        transition: 1s;
+        margin-top: -70px;
+        width: 40px;
+        height: 40px;
+    }
+
+}

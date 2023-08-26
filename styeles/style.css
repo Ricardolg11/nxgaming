@@ -32,6 +32,7 @@ body {
     height: 217px;
     left: 0px;
     top: -47px;
+    transition: 2s;
 }
 
 .txtb{
@@ -196,6 +197,11 @@ transition: 2s;
 
 @media screen and (max-width: 810px) {
     
+    .lg{
+        transition: 2s;
+        width: 157px;
+        height: 157px;
+    }
     .btlc{
         transition: 1s;
         left: 220px;   
@@ -218,9 +224,7 @@ transition: 2s;
         font-size: 15px;
     }
 
-
 }
-
 
 @media screen and (max-width: 980px) {
     
@@ -274,9 +278,10 @@ transition: 2s;
 
 }
 
-
 @media screen and (max-width: 980px) {
     
+
+   
     .imgic{
         top: 800px;
     }

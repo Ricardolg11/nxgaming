@@ -84,6 +84,14 @@ top: -31px;
   display: block;
 }
 
+.bannertw{
+  display:flex;
+  width: 1351px;
+  left: 0px; 
+  top: 80px; 
+  position: absolute;
+}
+
 @media (max-width: 860px)  {
 
   .navbar {
@@ -127,24 +135,27 @@ top: -31px;
   }
 }
 
-.bannertw{
-  display:flex;
-  width: 1351px;
-}
+
 
 .retangulo{
-position: absolute;
-width: 1148px;
-height: 2044px;
-left: 110px;
-top: 589px;
-background: #2A2438;
+  position: absolute;
+  width: 1148px;
+  height: 2044px;
+  left: 110px;
+  top: 589px;
+  background: #2A2438;
 }
 
 .imgc{
-position: absolute;
-width: 221px;
-height: 271px;
+  position: absolute;
+  width: 221px;
+  height: 271px;
+}
+
+.imgc1{
+  left: 149px; 
+  top: 613px
+
 }
 
 .nt{

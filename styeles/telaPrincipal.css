@@ -13,11 +13,11 @@ body {
 }
 
 .logo {
-position: absolute;
-width: 141px;
-height: 141px;
-left: 7px;
-top: -31px;
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  left: 7px;
+  top: -31px;
 }
 
 .navbar {
@@ -159,16 +159,21 @@ top: -31px;
 }
 
 .nt{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-font-weight: 150;
-border: none;
-position: absolute;
-width: 60px;
-height: 60px;
-background: #29DE30;
-color:  #FFFFFF;
-border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 150;
+  border: none;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
+}
+
+.nt1{
+  left: 395px; 
+  top: 613px;
 }
 
 .ntu{
@@ -185,28 +190,46 @@ color:  #FFFFFF;
 border-radius: 10px;
 }
 
-.txtt{
-position: absolute;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-line-height: 56px;
-color: #BC6FF1;
+.ntu1{
+  left: 395px;
+  top: 707px;
 }
 
+.txtt{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 56px;
+  color: #BC6FF1;
+}
+
+.txtt1{
+  width: 360px; 
+  height: 56px; 
+  left: 521px; 
+  top: 613px;
+}
 .txtd{
-position: absolute;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: 500;
-width: 705px;
-height: 133px;
-left: 521px;
-font-size: 28px;
-line-height: 28px;
-text-align: justify;
-color: #FFFFFF;
+  position: absolute;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 705px;
+  height: 133px;
+  left: 521px;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.txtd1{ 
+  width: 711px; 
+  height: 133px; 
+  left: 521px;
+  top: 674px;
 }
 
 .linhas{
@@ -216,6 +239,10 @@ height: 0px;
 border: 2px solid #BC6FF1;
 }
 
+.linhas1{
+  left: 110px; 
+  top: 1264px;
+}
 .stv{
 border: none;
 width: 32px;

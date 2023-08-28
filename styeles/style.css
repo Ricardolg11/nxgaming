@@ -99,80 +99,45 @@ body {
 
 .imgic{
     position: absolute;
+    top: 894px; 
     width: 64px;
     height: 64px;
     transition: 1s;
 }
 
 .imgic1{
-    top: 894px; 
     left: 82px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
-.imgic2{
-    top: 894px; 
+.imgic2{ 
     left: 195px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
-.imgic3{
-    top: 894px; 
+.imgic3{ 
     left: 308px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
 .imgic4{
-    top: 894px; 
     left: 421px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
 .imgic5{
-    top: 894px; 
     left: 534px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
 .imgic6{
-    top: 894px; 
     left: 817px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
 .imgic7{
-    top: 894px; 
     left: 930px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
 .imgic8{
-    top: 894px; 
     left: 1043px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
 .imgic9{
-    top: 894px; 
     left: 1156px;
-    position: absolute;
-    width: 64px;
-    height: 64px;
 }
 
 .line{
@@ -280,8 +245,6 @@ transition: 2s;
 
 @media screen and (max-width: 980px) {
     
-
-   
     .imgic{
         top: 800px;
     }

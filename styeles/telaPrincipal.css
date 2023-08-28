@@ -158,6 +158,10 @@ body {
 
 }
 
+.imgc2{
+  left: 149px; 
+  top: 956px;
+}
 .nt{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -233,16 +237,17 @@ border-radius: 10px;
 }
 
 .linhas{
-position: absolute;
-width: 1144px;
-height: 0px;
-border: 2px solid #BC6FF1;
+  position: absolute;
+  width: 1144px;
+  height: 0px;
+  border: 2px solid #BC6FF1;
 }
 
 .linhas1{
   left: 110px; 
-  top: 1264px;
+  top: 922px;
 }
+
 .stv{
 border: none;
 width: 32px;

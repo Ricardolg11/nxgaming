@@ -114,6 +114,21 @@ border-radius: 15px;
     width: 40%;
     z-index: 10;
 }
+.img1{
+    position: absolute; 
+    width: 200px; height: 
+    200px; top: 
+    -10px; left: 
+    90px;
+}
+
+.img2{
+    position: absolute; 
+    width: 200px; 
+    height: 200px;
+    top: -10px; 
+    left: 670px;
+}
 .second-column {
     width: 60%;
     display: flex;

@@ -15,11 +15,11 @@ body{
 }
 
 .logo {
-position: absolute;
-width: 141px;
-height: 141px;
-left: 7px;
-top: -31px;
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  left: 7px;
+  top: -31px;
 }
 
 .navbar {
@@ -32,12 +32,10 @@ top: -31px;
   height: 13vh;
 }
 
-
 .dropdown {
   float: left;
   overflow: hidden;
 }
-
 
 .dropdown .dropbtn {
   font-size: 25px;
@@ -86,163 +84,256 @@ top: -31px;
 /*Começo css pag*/
 
 .btlc{
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-font-weight: 150;
-border: none;
-padding: 5px 22px;
-cursor: pointer;
-position: absolute;
-left: 1083px;
-top: 22px;
-
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 59px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 150;
+  border: none;
+  padding: 5px 22px;
+  cursor: pointer;
+  position: absolute;
+  left: 1083px;
+  top: 22px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 59px;
 }
 
 .retangulo{
+  position: absolute;
+  width: 1148px;
+  height: 2044px;
+  left: 110px;
+  top: 589px;
+  background: #2A2438;
+}
 
-position: absolute;
-width: 1148px;
-height: 2044px;
-left: 110px;
-top: 589px;
-background: #2A2438;
+.img{
+  top: 80px; 
+  left: 0; 
+  position: absolute;
 }
 
 .imgc{
+  position: absolute;
+  width: 221px;
+  height: 271px;
+  left: 149px;
+}
 
-position: absolute;
-width: 221px;
-height: 271px;
+.imgc1{
+  top: 613px;
+}
+
+.imgc2{
+  top: 956px;
+}
+
+.imgc3{
+  top: 1297px;
+}
+
+.imgc4{
+  top: 1636px;
 }
 
 .nt{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 150;
+  border: none;
+  padding: 15px 18px;
+  position: absolute;
+  width: 83px;
+  height: 77px;
+  left: 395px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
+}
 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-font-weight: 150;
-border: none;
-padding: 15px 18px;
-position: absolute;
-width: 83px;
-height: 77px;
-background: #29DE30;
-color:  #FFFFFF;
-border-radius: 10px;
+.nt1{
+  top: 613px;
+}
+
+.nt2{
+  top: 954px;
+}
+
+.nt3{
+  top: 1295px;
+}
+
+.nt4{
+  top: 1636px;
 }
 
 .ntu{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  padding: 7px 11px;
+  position: absolute;
+  left: 407px;
+  width: 58px;
+  height: 50px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
+}
 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-padding: 7px 11px;
-position: absolute;
-width: 58px;
-height: 50px;
-background: #29DE30;
-color:  #FFFFFF;
-border-radius: 10px;
+.ntu1{
+  top: 707px;
+}
+
+.ntu2{
+  top: 1048px;
+}
+
+.ntu3{
+  top: 1389px;
+}
+
+.ntu4{
+  top: 1730px;
 }
 
 .txtt{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  left: 521px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 56px;
+  color: #BC6FF1;
+}
 
-position: absolute;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-line-height: 56px;
-color: #BC6FF1;
+.txtt1{
+  width: 360px; 
+  height: 56px; 
+  top: 613px;
+}
+
+.txtt2{
+  top: 956px
+}
+
+.txtt3{
+  top: 1297px;
+}
+
+.txtt4{
+  top: 1638px;
 }
 
 .txtd{
+  position: absolute;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 705px;
+  height: 133px;
+  left: 521px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+  color: #FFFFFF;
+}
 
-position: absolute;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: 500;
-width: 705px;
-height: 133px;
-left: 521px;
-font-size: 20px;
-line-height: 28px;
-text-align: justify;
-color: #FFFFFF;
+.txtd1{
+  width: 711px; 
+  height: 133px;
+  top: 674px;
+}
+
+.txtd2{
+  top: 1017px;
+}
+
+.txtd3{
+  top: 1358px;
+}
+
+.txtd4{
+  top: 1699px;
 }
 
 .linhas{
+  position: absolute;
+  width: 1144px;
+  height: 0px;
+  border: 2px solid #BC6FF1;
+  left: 110px;
+}
 
-position: absolute;
-width: 1144px;
-height: 0px;
-border: 2px solid #BC6FF1;
+.linhas1{
+  top: 922px;
+}
+
+.linhas2 {
+  top: 1264px;
+}
+
+.linhas3 {
+  top: 1599px;
 }
 
 .stv{
-
-border: none;
-width: 32px;
-height: 38px;
-position: absolute;
-cursor: pointer;
-background: #BC6FF1;
-border-radius: 5px;
+  border: none;
+  width: 32px;
+  height: 38px;
+  position: absolute;
+  cursor: pointer;
+  background: #BC6FF1;
+  border-radius: 5px;
 }
 
 .istv{
-
-position: absolute;
-width: 24px;
-height: 24px;
-cursor: pointer;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 
 .bt{
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-cursor: pointer;
-padding: 5px 9px;
-position: absolute;
-width: 32px;
-height: 38px;
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  cursor: pointer;
+  padding: 5px 9px;
+  position: absolute;
+  width: 32px;
+  height: 38px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 5px;
 }
 
 .p3{
-
-position: absolute;
-width: 19px;
-height: 28px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #FFFFFF;
+  position: absolute;
+  width: 19px;
+  height: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
 }
 
 .bt100{
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-cursor: pointer;
-padding: 5px 9px;
-position: absolute;
-width: 59px;
-height: 38px;
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  cursor: pointer;
+  padding: 5px 9px;
+  position: absolute;
+  width: 59px;
+  height: 38px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 5px;
 }

@@ -3,12 +3,21 @@
   padding: 0;
 }
 
+body {
+  background-image: url();
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #352f44;
+  height: 2790px;
+}
+
 .logo {
-position: absolute;
-width: 141px;
-height: 141px;
-left: 7px;
-top: -31px;
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  left: 7px;
+  top: -31px;
 }
 
 .navbar {
@@ -69,168 +78,157 @@ top: -31px;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*Fim css menu*/
-
-/*Começo css pag*/
 
 .btlc{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 150;
+  border: none;
+  padding: 5px 22px;
+  cursor: pointer;
+  position: absolute;
+  left: 1083px;
+  top: 22px;
 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-font-weight: 150;
-border: none;
-padding: 5px 22px;
-cursor: pointer;
-position: absolute;
-left: 1083px;
-top: 22px;
-
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 59px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 59px;
 }
 
 .retangulo{
-
-position: absolute;
-width: 1148px;
-height: 2044px;
-left: 110px;
-top: 589px;
-background: #2A2438;
+  position: absolute;
+  width: 1148px;
+  height: 2044px;
+  left: 110px;
+  top: 589px;
+  background: #2A2438;
 }
 
 .imgc{
+  position: absolute;
+  width: 221px;
+  height: 271px;
+  left: 149px;
+}
 
-position: absolute;
-width: 221px;
-height: 271px;
+.imgc1{
+  top: 613px;
 }
 
 .nt{
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-font-weight: 150;
-border: none;
-padding: 15px 18px;
-position: absolute;
-width: 83px;
-height: 77px;
-background: #29DE30;
-color:  #FFFFFF;
-border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 150;
+  border: none;
+  padding: 15px 18px;
+  position: absolute;
+  width: 83px;
+  height: 77px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
 }
 
 .ntu{
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-padding: 7px 11px;
-position: absolute;
-width: 58px;
-height: 50px;
-background: #29DE30;
-color:  #FFFFFF;
-border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  padding: 7px 11px;
+  position: absolute;
+  width: 58px;
+  height: 50px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
 }
 
 .txtt{
-
-position: absolute;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-line-height: 56px;
-color: #BC6FF1;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 56px;
+  color: #BC6FF1;
 }
 
 .txtd{
-
-position: absolute;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: 500;
-width: 705px;
-height: 133px;
-left: 521px;
-font-size: 20px;
-line-height: 28px;
-text-align: justify;
-color: #FFFFFF;
+  position: absolute;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  width: 705px;
+  height: 133px;
+  left: 521px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+  color: #FFFFFF;
 }
 
 .linhas{
-
-position: absolute;
-width: 1144px;
-height: 0px;
-border: 2px solid #BC6FF1;
+  position: absolute;
+  width: 1144px;
+  height: 0px;
+  border: 2px solid #BC6FF1;
 }
 
 .stv{
-
-border: none;
-width: 32px;
-height: 38px;
-position: absolute;
-cursor: pointer;
-background: #BC6FF1;
-border-radius: 5px;
+  border: none;
+  width: 32px;
+  height: 38px;
+  position: absolute;
+  cursor: pointer;
+  background: #BC6FF1;
+  border-radius: 5px;
 }
 
 .istv{
-
-position: absolute;
-width: 24px;
-height: 24px;
-cursor: pointer;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 }
 
 .bt{
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-cursor: pointer;
-padding: 5px 9px;
-position: absolute;
-width: 32px;
-height: 38px;
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  cursor: pointer;
+  padding: 5px 9px;
+  position: absolute;
+  width: 32px;
+  height: 38px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 5px;
 }
 
 .p3{
-
-position: absolute;
-width: 19px;
-height: 28px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #FFFFFF;
+  position: absolute;
+  width: 19px;
+  height: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
 }
 
 .bt100{
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-cursor: pointer;
-padding: 5px 9px;
-position: absolute;
-width: 59px;
-height: 38px;
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  cursor: pointer;
+  padding: 5px 9px;
+  position: absolute;
+  width: 59px;
+  height: 38px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 5px;
 }

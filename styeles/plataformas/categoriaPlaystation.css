@@ -131,6 +131,10 @@ body {
   top: 1979px;
 }
 
+.imgc6{
+  top: 2318px;
+}
+
 .nt{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
@@ -164,6 +168,10 @@ body {
 
 .nt5{
   top: 1979px;
+}
+
+.nt6{
+  top: 2318px;
 }
 
 .ntu{
@@ -201,6 +209,10 @@ body {
   top: 2073px;
 }
 
+.ntu6{
+  top: 2412px;
+}
+
 .txtt{
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
@@ -234,6 +246,9 @@ body {
   top: 1979px;
 }
 
+.txtt6{
+  top: 2318px;
+}
 .txtd{
   position: absolute;
   font-family: 'Work Sans', sans-serif;
@@ -268,6 +283,10 @@ body {
 
 .txtd5{
   top: 2051px;
+}
+
+.txtd6{
+  top: 2390px
 }
 
 .linhas{
@@ -306,6 +325,14 @@ body {
   cursor: pointer;
   background: #BC6FF1;
   border-radius: 5px;
+  top: 2696px;
+}
+.stv1{
+  left: 396px;
+}
+
+.stv2{
+  left: 946px;
 }
 
 .istv{
@@ -313,6 +340,15 @@ body {
   width: 24px;
   height: 24px;
   cursor: pointer;
+  top: 2703px;
+}
+
+.istv1{
+  left: 400px;
+}
+
+.istv2{
+  left: 950px;
 }
 
 .bt{
@@ -374,6 +410,8 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
+  left: 848px; 
+  top: 2712px;
 }
 
 .bt100{
@@ -389,4 +427,6 @@ body {
   background: #BC6FF1;
   color:  #FFFFFF;
   border-radius: 5px;
+  left: 873px; 
+  top: 2696px;
 }

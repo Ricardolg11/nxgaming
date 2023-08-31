@@ -13,11 +13,11 @@ body {
 }
 
 .logo {
-position: absolute;
-width: 141px;
-height: 141px;
-left: 7px;
-top: -31px;
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  left: 7px;
+  top: -31px;
 }
 
 .navbar {
@@ -80,115 +80,115 @@ top: -31px;
 }
 
 .mine{
-position: absolute;
-width: 268px;
-height: 373px;
-left: 73px;
-top: 136px;
+  position: absolute;
+  width: 268px;
+  height: 373px;
+  left: 73px;
+  top: 136px;
 }
 
 .nt{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-font-weight: 150;
-border: none;
-padding: 15px 18px;
-position: absolute;
-width: 100px;
-height: 100px;
-background: #29DE30;
-color:  #FFFFFF;
-border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 150;
+  border: none;
+  padding: 15px 18px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
 }
 
 .ntu{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-padding: 7px 11px;
-position: absolute;
-width: 50px;
-height: 50px;
-background: #29DE30;
-color:  #FFFFFF;
-border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  padding: 7px 11px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #29DE30;
+  color:  #FFFFFF;
+  border-radius: 10px;
 }
 
 .buttoncom{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-cursor: pointer;
-padding: 5px 9px;
-position: absolute;
-width: 232px;
-height: 72px;
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  cursor: pointer;
+  padding: 5px 9px;
+  position: absolute;
+  width: 232px;
+  height: 72px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 6px;
 }
 
 .txtdm{
-position: absolute;
-width: 664px;
-height: 245px;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 35px;
-text-align: justify;
-color: #FFFFFF;
+  position: absolute;
+  width: 664px;
+  height: 245px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: justify;
+  color: #FFFFFF;
 }
 
 .plataformad{
-position: absolute;
-width: 240px;
-height: 160px;
-left: 1053px;
-top: 136px;
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  left: 1053px;
+  top: 136px;
 }
 
 .premiosg{
-position: absolute;
-width: 240px;
-height: 141px;
-left: 1054px;
-top: 334px;
+  position: absolute;
+  width: 240px;
+  height: 141px;
+  left: 1054px;
+  top: 334px;
 }
 
 .txtb{
-position: absolute;
-width: 904px;
-height: 770px;
-left: 231px;
-top: 1220px;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 35px;
-text-align: justify;
-color: #FFFFFF;
+  position: absolute;
+  width: 904px;
+  height: 770px;
+  left: 231px;
+  top: 1220px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: justify;
+  color: #FFFFFF;
 }
 
 .txttt{
-position: absolute;
-width: 305px;
-height: 75px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 64px;
-line-height: 75px;
-color: #FFFFFF;
+  position: absolute;
+  width: 305px;
+  height: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
 }
 
 .playv{
-position: absolute;
-left: 320px;
-top: 3850px;
-border: 1px solid #BC6FF1;
+  position: absolute;
+  left: 320px;
+  top: 3850px;
+  border: 1px solid #BC6FF1;
 }

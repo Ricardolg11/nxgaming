@@ -100,8 +100,9 @@
     background: #29DE30;
     color:  #FFFFFF;
     border-radius: 10px;
-    left: 91px; 
-    top: 542px;
+    left: 365px; 
+    top: 136px;
+
   }
   
   .ntu{
@@ -116,6 +117,8 @@
     background: #29DE30;
     color:  #FFFFFF;
     border-radius: 10px;
+    left: 488px; 
+    top: 136px;
   }
   
   .buttoncom{
@@ -131,6 +134,8 @@
     background: #BC6FF1;
     color:  #FFFFFF;
     border-radius: 6px;
+    left: 171px; top: 681px; 
+    position: absolute
   }
   
   .txtdm{
@@ -144,8 +149,16 @@
     line-height: 35px;
     text-align: justify;
     color: #FFFFFF;
+    left: 365px; 
+    top: 260px;
   }
-  
+
+  .bnminer{
+    left: 171px; 
+    top: 681px;
+    position: absolute;
+  }
+
   .plataformad{
     position: absolute;
     width: 240px;
@@ -189,6 +202,33 @@
     color: #FFFFFF;
   }
   
+  .txttt1{
+    left: 531px; 
+    top: 2017px;
+  }
+
+  .txttt2{
+    left: 527px; 
+    top: 2898px;
+  }
+
+  .txttt3{
+    left: 590px; 
+    top: 3738px;
+  }
+  
+  .min{
+    left: 172px; 
+    top: 2133px; 
+    position: absolute;
+  }
+
+  .rec{
+    left: 172px; 
+    top: 2494px; 
+    position: absolute;
+  }
+
   .playv{
     position: absolute;
     left: 320px;

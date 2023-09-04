@@ -13,11 +13,11 @@ body {
 }
 
 .logo {
-position: absolute;
-width: 141px;
-height: 141px;
-left: 7px;
-top: -31px;
+  position: absolute;
+  width: 141px;
+  height: 141px;
+  left: 7px;
+  top: -31px;
 }
 
 .navbar {
@@ -89,35 +89,32 @@ top: -31px;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/*Fim css menu*/
-
-/*começo css pag*/
 
 .txtt{
-position: absolute;
-width: 993px;
-height: 119px;
-left: 187px;
-top: 112px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 45px;
-line-height: 56px;
-color: #FFFFFF;
+  position: absolute;
+  width: 993px;
+  height: 119px;
+  left: 187px;
+  top: 112px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 56px;
+  color: #FFFFFF;
 }
 
 .txtd{
-position: absolute;
-width: 997px;
-font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 35px;
-text-align: justify;
-color: #FFFFFF;
-left: 185px;
+  position: absolute;
+  width: 997px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: justify;
+  color: #FFFFFF;
+  left: 185px;
 }
 
 .txtd1 {
@@ -133,33 +130,33 @@ left: 185px;
 }
 
 .txtt2{
-position: absolute;
-width: 500px;
-height: 42px;
-left: 185px;
-top: 1040px;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 900;
-font-size: 30px;
-line-height: 42px;
-text-align: justify;
-color: #FFFFFF;
+  position: absolute;
+  width: 500px;
+  height: 42px;
+  left: 185px;
+  top: 1040px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: justify;
+  color: #FFFFFF;
 }
 
 .bttab{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 24px;
-font-weight: 150;
-border: none;
-cursor: pointer;
-padding: 5px 9px;
-position: absolute;
-width: 283px;
-height: 54px;
-background: #BC6FF1;
-color:  #FFFFFF;
-border-radius: 6px;
-left: 545px; 
-top: 2170px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 150;
+  border: none;
+  cursor: pointer;
+  padding: 5px 9px;
+  position: absolute;
+  width: 283px;
+  height: 54px;
+  background: #BC6FF1;
+  color:  #FFFFFF;
+  border-radius: 6px;
+  left: 545px; 
+  top: 2170px;
 }

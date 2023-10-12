@@ -229,21 +229,22 @@ input:-webkit-autofill
     order: 2;
     z-index: -1;
 }
+
 .second-content .second-column {
     order: 1;
     z-index: -1;
 }
+
 .password {
     color: #34495e;
     font-size: 14px;
     margin: 15px 0;
     text-align: center;
 }
+
 .password::first-letter {
     text-transform: capitalize;
 }
-
-
 
 .sign-in-js .first-content .first-column {
     z-index: -1;

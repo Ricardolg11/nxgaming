@@ -30,12 +30,10 @@
     height: 13vh;
   }
   
-  
   .dropdown {
     float: left;
     overflow: hidden;
   }
-  
   
   .dropdown .dropbtn {
     font-size: 25px;

@@ -172,9 +172,12 @@ transition: 2s;
     }
     .btlc{
         transition: 1s;
-        left: 220px;   
+        left: 150px;   
+    
     }
 }
+
+
 
 @media screen and (max-width: 1190px) {
     
@@ -193,19 +196,20 @@ transition: 2s;
 
 }
 
+
 @media screen and (max-width: 980px) {
     
     .txtbb{
         transition: 1s;
         top: 600px; 
-        left: 100px;
-        font-size: 15px;
+        left: 60px;
+        font-size: 12px;
     }
     .txtbb2{
         transition: 1s;
         top: 500px; 
-        left: 630px;
-        font-size: 15px;
+        left: 120px;
+        font-size: 12px;
     }
 
 }
@@ -310,7 +314,7 @@ transition: 2s;
     .txtbb2{
         transition: 1s;
         top: 800px; 
-        left: 150px;
+        left: 80px;
         font-size: 15px;
     }
 
@@ -335,3 +339,28 @@ transition: 2s;
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    
+    .lg{
+        transition: 2s;
+        width: 100px;
+        top: -20px;
+        height: 110px;
+    }
+    .btlc{
+        transition: 1s;
+        left: 100px;
+        font-size: 11px;
+        width: 150px;
+        height: 20px;
+        top: 20px;
+    }
+
+    .imgic{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+

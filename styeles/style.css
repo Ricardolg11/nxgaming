@@ -11,6 +11,7 @@ body {
     background-color: #352F44;
     height: 998px;
 }
+
 .conteiner {
     top: 0px;
     left: 0px;
@@ -348,6 +349,7 @@ transition: 2s;
         top: -20px;
         height: 110px;
     }
+
     .btlc{
         transition: 1s;
         left: 100px;

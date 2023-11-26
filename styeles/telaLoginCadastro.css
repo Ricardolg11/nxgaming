@@ -286,7 +286,6 @@ input:-webkit-autofill
     z-index: 13;    
 }
 
-
 /* DESLOCAMENTO CONTEÚDO ATRÁS DO CONTENT:BEFORE*/
 .sign-in-js .first-content .second-column {
     z-index: -1;
@@ -471,7 +470,6 @@ input:-webkit-autofill
             z-index: -1;
         }
     }
-    
     
     @keyframes deslocamentoDir {
     

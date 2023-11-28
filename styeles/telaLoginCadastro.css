@@ -264,7 +264,6 @@ input:-webkit-autofill
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     animation: slidein 1.0s; /*MODIFIQUEI DE 3s PARA 1.3s*/
-
     z-index: 12;
 }
 
@@ -556,12 +555,14 @@ input:-webkit-autofill
 }
 
 @media screen and (max-width: 740px) {
+
     .form {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 425px) {
+    
     .form {
         width: 100%;
     }

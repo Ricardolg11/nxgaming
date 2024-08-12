@@ -21,6 +21,7 @@ body {
 }
 
 .navbar {
+  max-width: 984px;
   display: flex;
   justify-content: center;
   letter-spacing: 3px;

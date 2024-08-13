@@ -80,7 +80,7 @@ body {
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
-    top: 840px; 
+    top: 930px; 
     left: 207px;
     color: #FFFFFF;
     transition: 2s;
@@ -95,7 +95,7 @@ body {
     font-weight: 900;
     font-size: 24px;
     line-height: 28px;
-    top: 840px; 
+    top: 930px; 
     left: 942px;
     color: #FFFFFF;
     transition: 2s;
@@ -103,7 +103,7 @@ body {
 
 .imgic{
     position: absolute;
-    top: 894px; 
+    top: 990px; 
     width: 64px;
     height: 64px;
     transition: 1s;

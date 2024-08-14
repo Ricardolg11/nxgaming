@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+body{
     background-image: url();
     background-attachment: fixed;
     background-size: 100%;
@@ -12,7 +12,7 @@ body {
     height: 998px;
 }
 
-.conteiner {
+.conteiner{
     top: 0px;
     left: 0px;
     position: absolute;
@@ -20,7 +20,7 @@ body {
     height: 812px;
 }
 
-.imgprinc {
+.imgprinc{
     width: 100%;
 }
 

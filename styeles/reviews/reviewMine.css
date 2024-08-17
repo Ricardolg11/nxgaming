@@ -1,9 +1,9 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
 
-body {
+body{
   background-image: url();
   background-attachment: fixed;
   background-size: 100%;
@@ -12,7 +12,7 @@ body {
   height: 4409px;
 }
 
-.logo {
+.logo{
   position: absolute;
   width: 141px;
   height: 141px;
@@ -20,7 +20,7 @@ body {
   top: -31px;
 }
 
-.navbar {
+.navbar{
   display: flex;
   justify-content: center;
   letter-spacing: 3px;
@@ -30,7 +30,7 @@ body {
   height: 13vh;
 }
 
-.dropdown {
+.dropdown{
   float: left;
   overflow: hidden;
 }
@@ -47,11 +47,11 @@ body {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn{
   background-color: #352F44;
 }
 
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -60,7 +60,7 @@ body {
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content a{
   float: none;
   color: black;
   padding: 14px 15px;
@@ -69,11 +69,11 @@ body {
   text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:hover{
   background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
   display: block;
 }
 

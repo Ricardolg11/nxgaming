@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ body{
   
 }
 
-.logo {
+.logo{
   position: absolute;
   width: 141px;
   height: 141px;
@@ -22,7 +22,7 @@ body{
   top: -31px;
 }
 
-.navbar {
+.navbar{
   display: flex;
   justify-content: center;
   letter-spacing: 3px;
@@ -32,7 +32,7 @@ body{
   height: 13vh;
 }
 
-.dropdown {
+.dropdown{
   float: left;
   overflow: hidden;
 }
@@ -49,11 +49,11 @@ body{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn{
   background-color: #352F44;
 }
 
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -306,19 +306,19 @@ body{
   left: 110px;
 }
 
-.linhas1 {
+.linhas1{
   top: 922px;
 }
 
-.linhas2 {
+.linhas2{
   top: 1264px;
 }
 
-.linhas3 {
+.linhas3{
   top: 1599px;
 }
 
-.linhas4 {
+.linhas4{
   top: 1944px;
 }
 
@@ -384,27 +384,27 @@ body{
   left: 534px;
 }
 
-.bt3 {
+.bt3{
   left: 580px;
 }
 
-.bt4 {
+.bt4{
   left: 626px;
 }
 
-.bt5 {
+.bt5{
   left: 672px;
 }
 
-.bt6 {
+.bt6{
   left: 718px;
 }
 
-.bt7 {
+.bt7{
   left: 764px;
 }
 
-.bt8 {
+.bt8{
   left: 810px;
 }
 

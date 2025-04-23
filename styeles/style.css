@@ -22,7 +22,7 @@ body {
     flex-direction: column;
 }
 
-/* Header Corrigido */
+/* Header  */
 .header {
     position: fixed;
     top: 0;
@@ -87,7 +87,7 @@ body {
 
 /* Main Content - Adicionado padding-top para compensar o header fixo */
 .main-content {
-    padding-top: 80px; /* Ajuste conforme altura do seu header */
+    padding-top: 80px; /* Ajuste conforme altura do header */
     flex: 1;
 }
 
@@ -116,8 +116,6 @@ body {
     align-items: center;
     gap: 2rem;
 }
-
-/* ... (mantenha o resto do CSS como estava) ... */
 
 /* Responsividade Ajustada */
 @media (max-width: 768px) {

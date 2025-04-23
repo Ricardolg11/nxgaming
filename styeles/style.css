@@ -22,26 +22,32 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+/* Header Corrigido */
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: 10%;
+    background-color: var(--secondary-color);
     padding: 1rem;
     z-index: 100;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 .logo-link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -52,6 +58,11 @@ body {
 
 .logo:hover {
     transform: scale(1.05);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
 }
 
 .login-btn {
@@ -66,6 +77,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .login-btn:hover {
@@ -73,9 +85,9 @@ body {
     transform: translateY(-2px);
 }
 
-/* Main Content */
+/* Main Content - Adicionado padding-top para compensar o header fixo */
 .main-content {
-    margin-top: 80px;
+    padding-top: 80px; /* Ajuste conforme altura do seu header */
     flex: 1;
 }
 
@@ -105,44 +117,14 @@ body {
     gap: 2rem;
 }
 
-.platforms-section, .social-section {
-    text-align: center;
-    flex: 1;
-    min-width: 250px;
-}
+/* ... (mantenha o resto do CSS como estava) ... */
 
-.section-title {
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-bottom: 1rem;
-}
-
-.platform-icons, .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.platform-icon, .social-icon {
-    width: 50px;
-    height: 50px;
-    transition: transform 0.3s ease;
-}
-
-.platform-icon:hover, .social-icon:hover {
-    transform: scale(1.1);
-}
-
-.divider {
-    width: 1px;
-    height: 100px;
-    background-color: var(--text-color);
-    margin: 0 1rem;
-}
-
-/* Responsividade */
+/* Responsividade Ajustada */
 @media (max-width: 768px) {
+    .header {
+        padding: 0.5rem 1rem;
+    }
+    
     .logo {
         width: 120px;
     }
@@ -152,23 +134,8 @@ body {
         font-size: 0.9rem;
     }
     
-    .footer-content {
-        flex-direction: column;
-    }
-    
-    .divider {
-        width: 80%;
-        height: 1px;
-        margin: 1rem 0;
-    }
-    
-    .section-title {
-        font-size: 1.2rem;
-    }
-    
-    .platform-icon, .social-icon {
-        width: 40px;
-        height: 40px;
+    .main-content {
+        padding-top: 70px;
     }
 }
 
@@ -182,16 +149,7 @@ body {
         padding: 0.4rem 0.8rem;
     }
     
-    .section-title {
-        font-size: 1rem;
-    }
-    
-    .platform-icons, .social-icons {
-        gap: 0.5rem;
-    }
-    
-    .platform-icon, .social-icon {
-        width: 30px;
-        height: 30px;
+    .main-content {
+        padding-top: 60px;
     }
 }

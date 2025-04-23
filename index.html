@@ -1,38 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page - NXGaming</title>
-    <link rel="stylesheet" type="text/css" href="./styeles/style.css" />
-    <link rel="shortcut icon" href="./img/LGA.png" />
+    <title>NXGaming - Plataforma de Jogos</title>
+    <meta
+      name="description"
+      content="Catálogo de jogos com informações detalhadas e links para compra"
+    />
+    <link rel="stylesheet" href="./styeles/style.css" />
+    <link rel="shortcut icon" href="./img/LGA.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <section class="conteiner">
-      <img class="imgprinc" src="./img/Principais/LP1.png" alt="" />
-      <a href="./pages/telaPrincipal.html">
-        <img src="./img/LG.png" alt="" class="lg" />
-      </a>
-      <a href="./pages/telaLoginCadastro.html">
-        <button class="btlc">Login/Cadastro</button></a
-      >
-      <nav class="nav">
-        <div class="txtbb">Plataformas Disponíveis</div>
+    <header class="header">
+      <div class="header-content">
+        <a href="./pages/telaPrincipal.html" class="logo-link">
+          <img src="./img/LG.png" alt="NXGaming Logo" class="logo" />
+        </a>
+        <nav class="nav-menu">
+          <a href="./pages/telaLoginCadastro.html" class="login-btn"
+            >Login/Cadastro</a
+          >
+        </nav>
+      </div>
+    </header>
 
-        <img src="./img/PC.png" class="imgic imgic1" alt="" />
-        <img src="./img/NI.png" class="imgic imgic2" alt="" />
-        <img src="./img/XB.png" class="imgic imgic3" alt="" />
-        <img src="./img/PLAY.png" class="imgic imgic4" alt="" />
-        <img src="./img/PSP.png" class="imgic imgic5" alt="" />
-        <hr class="line" />
-        <div class="txtbb2">Redes Sociais</div>
+    <main class="main-content">
+      <div class="hero-banner">
+        <img
+          src="./img/Principais/LP1.png"
+          alt="Banner de jogos"
+          class="banner-img"
+        />
+      </div>
+    </main>
 
-        <img src="./img/DIS.png" class="imgic imgic6" alt="" />
-        <img src="./img/TW.png" class="imgic imgic7" alt="" />
-        <img src="./img/FB.png" class="imgic imgic8" alt="" />
-        <img src="./img/INS.png" class="imgic imgic9" alt="" />
-      </nav>
-    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="platforms-section">
+          <h3 class="section-title">Plataformas Disponíveis</h3>
+          <div class="platform-icons">
+            <img src="./img/PC.png" alt="PC" class="platform-icon" />
+            <img src="./img/NI.png" alt="Nintendo" class="platform-icon" />
+            <img src="./img/XB.png" alt="Xbox" class="platform-icon" />
+            <img src="./img/PLAY.png" alt="PlayStation" class="platform-icon" />
+            <img src="./img/PSP.png" alt="PSP" class="platform-icon" />
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="social-section">
+          <h3 class="section-title">Redes Sociais</h3>
+          <div class="social-icons">
+            <img src="./img/DIS.png" alt="Discord" class="social-icon" />
+            <img src="./img/TW.png" alt="Twitter" class="social-icon" />
+            <img src="./img/FB.png" alt="Facebook" class="social-icon" />
+            <img src="./img/INS.png" alt="Instagram" class="social-icon" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
